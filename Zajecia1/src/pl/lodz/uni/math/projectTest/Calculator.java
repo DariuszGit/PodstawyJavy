@@ -16,6 +16,11 @@ public class Calculator {
 		this.result = this.firstValue + this.secondValue;
 	}
 	
+	public void Substract()
+	{
+		this.result = this.firstValue - this.secondValue;
+	}
+	
 	public int getResult()
 	{
 		return this.result;
