@@ -21,6 +21,16 @@ public class Calculator {
 		this.result = this.firstValue - this.secondValue;
 	}
 	
+	public void Multiple()
+	{
+		this.result = this.firstValue * this.secondValue;
+	}
+	
+	public void Divide()
+	{
+		this.result = this.firstValue / this.secondValue;
+	}
+	
 	public int getResult()
 	{
 		return this.result;
